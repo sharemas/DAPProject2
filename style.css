@@ -159,3 +159,16 @@ main{
 }
 
 /* End Left Side Bar Styling */
+
+.post-input {
+    padding-left: 2rem;
+    padding-top: 3rem;
+
+}
+
+.post-input textarea{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+}
