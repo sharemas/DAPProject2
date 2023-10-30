@@ -105,9 +105,11 @@ nav {
 .main-container {
     display: flex;
     justify-content: space-between;
-    margin: 2rem 2rem;
-    height: 100%;
+    padding: 13px 5%;
 
+}
+main{
+    overflow: hidden;
 }
 
 .left-side-bar {
@@ -117,7 +119,7 @@ nav {
     top: 70px;
     padding: 1.25rem;
     background-color: white;
-    height: 40rem;
+    height: 100%;
     border-radius: .5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -125,20 +127,32 @@ nav {
 
 }
 
-
 .left-side-bar h4 {
     font-weight: bold;
     color: grey;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     font-size: 1.2rem;
+}
+
+#discover {
+    margin-top: .5rem;
 }
 
 .left-side-bar a {
     display: block;
-    margin-top: 2rem;
+    margin-top: 1rem;
     color:midnightblue
 }
 
 .left-side-bar a:hover {
     color:rgb(2, 6, 255);
+}
+
+.uil-star, .uil-headphones, .uil-video, .uil-users-alt, .uil-airplay,
+.uil-link, .uil-boombox, .uil-folder-upload, .uil-lightbulb-alt
+ {
+    font-size: 2rem;
+    color: black;
+    margin-left: .5rem;
+    margin-right: 1rem;
 }
