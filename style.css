@@ -65,20 +65,21 @@ nav {
     color: black;
 
 }
-
 .new-post-button{
-    
-    padding: 0.6rem 2rem;
-    font-size: .9rem;
+    display: flex;
+    align-items: center;
     background: rgb(159, 159, 159);
     border-radius: 2rem;
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 12rem;
 
 }
 
 .button {
-    cursor: pointer;
+    margin-left: 0.6rem;
+    font-size: .9rem;
+   
 }
 
 
@@ -91,11 +92,12 @@ nav {
 
 .logo {
     font-size: 2rem;
-    padding-left: 4rem;
+    font-weight: 700;
 }
 
 .uil-plus-circle{
-    font-size: 1rem;
+    font-size: 2rem;
+    padding-left: 1rem;
 }
 
 /* End Styling for Nav Bar */
