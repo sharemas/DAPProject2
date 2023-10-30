@@ -21,7 +21,7 @@ nav {
     width: 100%;
     background-color: rgb(255, 255, 255);
     padding: 0.2rem 0;
-    position: fixed;
+    position: relative;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
     
@@ -101,3 +101,44 @@ nav {
 }
 
 /* End Styling for Nav Bar */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+    height: 100%;
+
+}
+
+.left-side-bar {
+    align-self: flex-start;
+    position: sticky;
+    flex-basis: 25%;
+    top: 70px;
+    padding: 1.25rem;
+    background-color: white;
+    height: 40rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+
+}
+
+
+.left-side-bar h4 {
+    font-weight: bold;
+    color: grey;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.left-side-bar a {
+    display: block;
+    margin-top: 2rem;
+    color:midnightblue
+}
+
+.left-side-bar a:hover {
+    color:rgb(2, 6, 255);
+}
