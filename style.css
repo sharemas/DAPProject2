@@ -189,7 +189,6 @@ main{
 }
 
 .post-profile-picture img {
-    
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
@@ -198,9 +197,6 @@ main{
 
 
 .post-photo img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 70%;
     aspect-ratio: 1/1;
     margin-top: 0.8rem;
@@ -238,7 +234,7 @@ main{
 .right-side-bar {
     position: fixed;
     top: 70px;
-    left: 80%;
+    left: 82%;
     padding: 1.25rem;
     padding-right: 4rem;
     background-color: white;
@@ -250,19 +246,59 @@ main{
 .news-item {
     display: flex;
     align-items: right;
-}
-.news-item img {
     width: 60px;
     height: 60px;
+}
+
+.music-news{
+    width: 20rem;
 
 }
 
-.create-post-container{
+.news-item-container {
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
+    align-items: left;
+    height: 100vh;
+    width: 100%;
+    gap: 2rem;
+
 
 }
+
+.news-item-container img{
+    width: 8rem;
+    height: 5rem;
+}
+
+.create-post-container {
+    display: flex;
+    align-items: center;
+    background:  rgb(159, 159, 159);
+    border-radius: 2rem;
+    padding: 0.6rem 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 12rem;
+    margin-bottom: 2rem;
+    }
+
+.create-post{
+    width: 6rem;
+    border-radius: 2rem;
+}
+
 .profile-picture img{
     width: 3rem;
+    margin-right: .7rem;
 }
 
+
+.create-post input[type="text"]{
+    background: transparent;
+    width: 30vw;
+    color: black;
+    font-size: 1.2rem;
+
+
+}
