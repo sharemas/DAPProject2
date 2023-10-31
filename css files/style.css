@@ -52,6 +52,7 @@ nav {
     border-radius: 2rem;
     padding: 0.6rem 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 7rem;
     
 
 }
@@ -70,6 +71,17 @@ nav {
    
 }
 
+.login-button {
+    background:  rgb(159, 159, 159);
+    border-radius: 2rem;
+    padding: 0.6rem 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+    left: 6rem;
+
+
+}
 
 #settings-button, .uil-setting {
     font-size: 2rem;
