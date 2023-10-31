@@ -57,6 +57,9 @@ nav {
 
 }
 
+.search-box label {
+    margin-right: 1rem;
+}
 .search-box input[type="search"]{
     background: transparent;
     width: 30vw;
@@ -78,7 +81,7 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     position: relative;
-    left: 6rem;
+    left: 4rem;
 
 
 }
@@ -89,6 +92,9 @@ nav {
     cursor: pointer;
 }
 
+#settings-button p {
+    display: none;
+}
 
 .logo {
     font-size: 2rem;
@@ -128,7 +134,7 @@ nav {
 
 }
 
-.left-side-bar h4 {
+.left-side-bar h2 {
     font-weight: bold;
     color: grey;
     margin-top: 1.5rem;
@@ -228,7 +234,7 @@ nav {
     margin-top: .5rem;
 }
 .post-more-comments{
-    color: gray;
+    color: #3f3f3f;
 }
 
 /* End Middle Styling */
