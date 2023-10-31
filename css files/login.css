@@ -80,3 +80,7 @@ body{
 }
 
 
+.username p, .password p {
+    display: none;
+}
+

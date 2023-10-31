@@ -54,3 +54,8 @@
     gap: 3rem;
     overflow-y: auto;
 }
+
+
+.music-search-box p {
+    display: none;
+}
