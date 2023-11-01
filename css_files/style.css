@@ -1,4 +1,6 @@
-*, *::before, *::after{
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -8,7 +10,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Verdana, Tahoma, Times, serif;
     background-color: #00000022;
     overflow-x: hidden;
@@ -17,7 +19,8 @@ body{
     height: 100vh;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Arial, Verdana, Tahoma, Times, sans-serif;
 }
 
@@ -31,40 +34,41 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1;
 
-    
+
 }
 
 .nav-bar-container {
     width: 80%;
     margin: 0 auto;
-  }
+}
 
-.nav-bar-container{
+.nav-bar-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
     background: #ffffff;
-    
+
 }
 
 .search-box {
     display: flex;
     align-items: center;
-    background:  rgb(159, 159, 159);
+    background: rgb(159, 159, 159);
     border-radius: 2rem;
     padding: 0.6rem 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-left: 7rem;
-    
+
 
 }
 
 .search-box label {
     margin-right: 1rem;
 }
-.search-box input[type="search"]{
+
+.search-box input[type="search"] {
     background: transparent;
     width: 30vw;
     color: black;
@@ -75,11 +79,11 @@ nav {
 .button {
     margin-left: 0.6rem;
     font-size: .9rem;
-   
+
 }
 
 .login-button {
-    background:  rgb(159, 159, 159);
+    background: rgb(159, 159, 159);
     border-radius: 2rem;
     padding: 0.6rem 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -90,13 +94,19 @@ nav {
 
 }
 
-#settings-button, .uil-setting {
+.settings-button,
+.uil-setting {
     font-size: 2rem;
     background: white;
     cursor: pointer;
 }
 
-#settings-button p, .search-box p {
+
+.login-button::before {
+    display: none;
+}
+
+.settings-button:not(i) {
     display: none;
 }
 
@@ -104,13 +114,15 @@ nav {
     font-size: 2rem;
     font-weight: 700;
     text-decoration: none;
+    color: black;
 }
 
-.nav-bar-container h1 a, .nav-bar-container .login-button p{
+.nav-bar-container h1 a,
+.nav-bar-container .login-button p {
     color: black;
-  }
+}
 
-.uil-plus-circle{
+.uil-plus-circle {
     font-size: 2rem;
     padding-left: 1rem;
 }
@@ -135,7 +147,7 @@ nav {
 
 .left-side-bar {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     position: fixed;
     top: 4.375rem;
     left: 0.125rem;
@@ -163,16 +175,22 @@ nav {
 .left-side-bar a {
     display: block;
     margin-top: 1rem;
-    color:midnightblue
+    color: midnightblue
 }
 
 .left-side-bar a:hover {
-    color:rgb(2, 6, 255);
+    color: rgb(2, 6, 255);
 }
 
-.uil-star, .uil-headphones, .uil-video, .uil-users-alt, .uil-airplay,
-.uil-link, .uil-boombox, .uil-folder-upload, .uil-lightbulb-alt
- {
+.uil-star,
+.uil-headphones,
+.uil-video,
+.uil-users-alt,
+.uil-airplay,
+.uil-link,
+.uil-boombox,
+.uil-folder-upload,
+.uil-lightbulb-alt {
     font-size: 2rem;
     color: black;
     margin-left: .5rem;
@@ -201,7 +219,7 @@ nav {
     font-size: 1rem;
 }
 
-.post-container{
+.post-container {
     display: flex;
     flex-direction: column;
     background: white;
@@ -218,7 +236,7 @@ nav {
 }
 
 
-.post-photo img{
+.post-photo img {
     width: 70%;
     aspect-ratio: 1/1;
     margin-top: 0.8rem;
@@ -234,7 +252,7 @@ nav {
 
 }
 
-.post-icons span i{
+.post-icons span i {
     margin-right: .2rem;
     color: black;
     cursor: pointer;
@@ -245,10 +263,12 @@ nav {
     margin-top: 1rem;
     margin-bottom: 0.3rem;
 }
+
 .post-liked-by {
     margin-top: .5rem;
 }
-.post-more-comments{
+
+.post-more-comments {
     color: #3f3f3f;
 }
 
@@ -276,7 +296,7 @@ nav {
 
 }
 
-.music-news{
+.music-news {
     width: 20rem;
 
 }
@@ -294,7 +314,7 @@ nav {
 
 }
 
-.news-item-container img{
+.news-item-container img {
     width: 13rem;
     height: 7rem;
 
@@ -314,16 +334,20 @@ nav {
 .create-post-container {
     display: flex;
     align-items: center;
-    background:  rgb(159, 159, 159);
+    background: rgb(159, 159, 159);
     border-radius: 2rem;
     padding: 0.6rem 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 12rem;
     margin-bottom: 2rem;
 
-    }
+}
 
-.create-post{
+.create-post-container label {
+    display: none;
+}
+
+.create-post {
     display: flex;
     flex-direction: column;
     width: 6rem;
@@ -331,19 +355,19 @@ nav {
 
 }
 
-.create-post p{
+.create-post p {
     display: none;
 
 }
 
 
-.profile-picture img{
+.profile-picture img {
     width: 3rem;
     margin-right: .7rem;
 }
 
 
-.create-post input[type="text"]{
+.create-post input[type="text"] {
     background: transparent;
     width: 30vw;
     color: black;
@@ -353,3 +377,98 @@ nav {
 }
 
 /* End Right Side Styling */
+
+
+
+@media (max-width: 514px) {
+
+    nav {
+    
+        width: 32.063rem;
+    }
+
+    
+
+    .nav-bar-container {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        width: 32.063rem;
+    }
+
+    .search-box {
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+
+
+    .left-side-bar {
+        width: 0px;
+        padding: 0;
+        padding-right: 4rem;
+        
+    }
+
+    .left-side-bar a {
+        font-size: 2px;
+    }
+
+    .left-side-bar i{
+        font-size: 1.8rem;
+    }
+
+    .right-side-bar  {
+        width: 4rem;
+        left: 88%;
+        padding: .5rem;
+    }
+
+    .discover-bar-links > a, .you-bar-links > a {
+        color: transparent;
+      }
+
+    h2 {
+        display: none;
+    }
+
+    .post-container {
+        width: 400px;
+    }
+
+    .middle {
+        flex-basis: 75%;
+        margin-left: 54px;
+
+    }
+
+    .create-post-container {
+        width: 2.7rem;
+        height: 2.7rem;
+        padding: .61rem;
+
+    }
+
+    #new-post {
+        font-size: .4rem;
+        width: 4rem;
+    }
+
+    .profile-picture {
+        display: none;
+    }
+
+
+
+}
+
+

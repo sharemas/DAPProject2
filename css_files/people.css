@@ -8,15 +8,19 @@
 
 }
 
-
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .card-img-top {
     width: 6rem;
     aspect-ratio: 1/1;
-    border-radius: 80%; 
+    border-radius: 80%;
     margin-top: 1rem;
 
-    
+
 
 }
 
@@ -31,7 +35,8 @@
     overflow-y: auto;
 }
 
-.card-title, .connect-button{
+.card-title,
+.connect-button {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -42,17 +47,17 @@
     size: 2rem;
 
 }
-.connect-button{
+
+.connect-button {
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     align-self: center;
     width: 7rem;
     height: 4rem;
     text-align: center;
-    margin-left: 2rem;
+
     border-radius: 2rem;
-    
+
 }
-.connect-button p {
-    font-size: 1rem;
-}
+
+

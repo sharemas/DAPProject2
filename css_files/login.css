@@ -1,4 +1,6 @@
-*, *::before, *::after{
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -8,7 +10,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Verdana, Tahoma, sans-serif, Times, serif, sans-serif;
     background-color: #00000022;
     overflow-x: hidden;
@@ -32,10 +34,10 @@ body{
     width: 20rem;
     height: 30rem;
     border-radius: 3rem;
-    
-    
-    
-    
+
+
+
+
 
 
 }
@@ -45,18 +47,22 @@ body{
     margin-bottom: rem;
 
 }
+
 .container p {
     text-align: center;
     margin-bottom: 2rem;
 
 }
 
-.username, .password, .label {
+.username,
+.password,
+.label {
     margin: 10px, 0;
 
 }
 
-.username, .password {
+.username,
+.password {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -69,18 +75,19 @@ body{
 
     align-self: center;
     padding: 10px;
-    background-color:rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     cursor: pointer;
     margin-top: 3rem;
     border-radius: 5rem;
 
 }
+
 .submit button {
     margin-left: 40%;
 }
 
 
-.username p, .password p {
+.username label,
+.password label {
     display: none;
 }
-

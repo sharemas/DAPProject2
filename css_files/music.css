@@ -1,4 +1,4 @@
-.music-main-content{
+.music-main-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,28 +23,29 @@
 
 
 }
-.music-search-container h1 {
-    display: flex;
-    align-self: center;
+
+.music-search-container p {
+    font-size: 2.125rem;
 }
+
 .music-search-box {
     display: flex;
     align-items: center;
 
-    background:  rgb(159, 159, 159);
+    background: rgb(159, 159, 159);
     border-radius: 2rem;
     padding: 0.6rem 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.music-search-box input[type="search"]{
+.music-search-box input[type="search"] {
     background: transparent;
     width: 20vw;
     color: black;
 
 }
 
-.music-specifics-container{
+.music-specifics-container {
     position: relative;
     top: 6rem;
     left: 4rem;
@@ -63,4 +64,8 @@
 
 .card-title {
     font-size: 110%;
+}
+
+.music-search-box label {
+    display: none;
 }
