@@ -4,7 +4,7 @@
     justify-content: space-between;
 
     position: relative;
-    top: 5rem;
+    top: 2.5rem;
     left: 18rem;
     height: 100vh;
     width: 82%;
@@ -70,6 +70,9 @@
     display: none;
 }
 
+/* Media query for small screens */
+/* Large screen is default */
+
 @media (max-width: 514px) {
     .music-main-content {
         display: flex;
@@ -87,13 +90,10 @@
         
     }
 
-    .music-search-box {
-        margin-left: 3rem;
-    }
-
+   
     .music-specifics-container {
         display: flex;
-        left: 2rem;
+        left: 3.5rem;
         width: 100vw;
 
     }

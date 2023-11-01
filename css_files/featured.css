@@ -30,6 +30,8 @@
 }
 
 
+/* Media query for small screens */
+/* Large screen is default */
 @media (max-width: 514px) {
 
     .news-container {
@@ -43,6 +45,10 @@
         overflow-y: auto;
         align-items: start;
     
+    }
+
+    .card-title {
+        display: block;
     }
 
 }

@@ -60,4 +60,26 @@
 
 }
 
+/* Media query for small screens */
+/* Large screen is default */
+
+@media (max-width: 514px) {
+    .music-search-container p {
+        display: flex;
+        justify-content: center;
+        
+
+    }
+
+    .music-search-container {
+        width: 30rem;
+        align-self: center;
+        padding-left: 3rem;
+    }
+
+    
+
+
+}
+
 

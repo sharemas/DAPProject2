@@ -94,11 +94,15 @@ nav {
 
 }
 
-.settings-button,
-.uil-setting {
+
+
+.settings-button {
+    font-size: 0;
+}
+
+.settings-button i {
     font-size: 2rem;
     background: white;
-    cursor: pointer;
 }
 
 
@@ -106,9 +110,7 @@ nav {
     display: none;
 }
 
-.settings-button:not(i) {
-    display: none;
-}
+
 
 .logo {
     font-size: 2rem;
@@ -381,7 +383,8 @@ nav {
 
 
 
-
+/* Media query for small screens */
+/* Large screen is default */
 
 @media (max-width: 514px) {
 
