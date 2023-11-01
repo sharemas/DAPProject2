@@ -9,7 +9,7 @@
 }
 
 body{
-    font-family: Verdana, Tahoma, sans-serif, Times, serif, sans-serif;
+    font-family: Verdana, Tahoma, Times, serif;
     background-color: #00000022;
     overflow-x: hidden;
     margin: 0;
@@ -17,6 +17,9 @@ body{
     height: 100vh;
 }
 
+h1, h2 {
+    font-family: Arial, Verdana, Tahoma, Times, sans-serif;
+}
 
 /* Styling for Navbar */
 nav {
@@ -123,8 +126,8 @@ nav {
     display: flex;
     flex-direction: column; 
     position: fixed;
-    top: 70px;
-    left: 2px;
+    top: 4.375rem;
+    left: 0.125rem;
     padding: 1.25rem;
     padding-right: 4rem;
     background-color: white;

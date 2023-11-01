@@ -1,0 +1,58 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 2rem;
+
+}
+
+
+
+.card-img-top {
+    width: 6rem;
+    aspect-ratio: 1/1;
+    border-radius: 80%; 
+    margin-top: 1rem;
+
+    
+
+}
+
+.people-specifics-container {
+    position: relative;
+    top: 6rem;
+    left: 4rem;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    overflow-y: auto;
+}
+
+.card-title, .connect-button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: .4rem;
+}
+
+.card-title {
+    size: 2rem;
+
+}
+.connect-button{
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    align-self: center;
+    width: 7rem;
+    height: 4rem;
+    text-align: center;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    
+}
+.connect-button p {
+    font-size: 1rem;
+}
