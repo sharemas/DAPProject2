@@ -10,6 +10,7 @@
     width: 82%;
 }
 
+
 .music-search-container {
     position: relative;
     display: flex;
@@ -58,4 +59,8 @@
 
 .music-search-box p {
     display: none;
+}
+
+.card-title {
+    font-size: 110%;
 }

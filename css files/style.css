@@ -115,6 +115,11 @@ nav {
     padding-left: 1rem;
 }
 
+#copyright-info {
+    padding-top: 1.2rem;
+    font-size: 60%;
+}
+
 /* End Styling for Nav Bar */
 
 
