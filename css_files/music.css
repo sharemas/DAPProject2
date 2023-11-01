@@ -69,3 +69,45 @@
 .music-search-box label {
     display: none;
 }
+
+@media (max-width: 514px) {
+    .music-main-content {
+        display: flex;
+        justify-content: center;
+
+        top: 6rem;
+        left: 6rem;
+        height: 100vh;
+        width: 70%;
+    }
+
+    .music-search-container {
+        width: auto;
+        right: 1rem;
+        
+    }
+
+    .music-search-box {
+        margin-left: 3rem;
+    }
+
+    .music-specifics-container {
+        display: flex;
+        left: 2rem;
+        width: 100vw;
+
+    }
+
+    .card-title {
+        display: block;
+    }
+
+    .card {
+        height: 17rem;
+
+    }
+    .card-img-top, .card-text {
+        width: 16rem;
+    }
+        
+}
