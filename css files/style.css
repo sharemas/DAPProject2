@@ -29,6 +29,7 @@ nav {
     position: fixed;
     top: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 
     
 }
@@ -102,7 +103,12 @@ nav {
 .logo {
     font-size: 2rem;
     font-weight: 700;
+    text-decoration: none;
 }
+
+.nav-bar-container h1 a, .nav-bar-container .login-button p{
+    color: black;
+  }
 
 .uil-plus-circle{
     font-size: 2rem;
