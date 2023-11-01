@@ -281,7 +281,7 @@ nav {
     top: 70px;
     left: 82.5%;
     padding: 1rem;
-    padding-right: rem;
+    padding-right: 4rem;
     background-color: white;
     height: 100%;
     z-index: 1;
@@ -380,14 +380,25 @@ nav {
 
 
 
+
+
+
 @media (max-width: 514px) {
 
     nav {
-    
+
         width: 32.063rem;
     }
 
-    
+    h3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 2.5rem;
+        font-size: .6rem;
+    }
+
+
 
     .nav-bar-container {
         display: flex;
@@ -416,26 +427,36 @@ nav {
         width: 0px;
         padding: 0;
         padding-right: 4rem;
-        
+        left: 0;
+
     }
 
     .left-side-bar a {
         font-size: 2px;
     }
 
-    .left-side-bar i{
+    .left-side-bar i {
         font-size: 1.8rem;
     }
 
-    .right-side-bar  {
+    .right-side-bar {
         width: 4rem;
         left: 88%;
         padding: .5rem;
     }
 
-    .discover-bar-links > a, .you-bar-links > a {
+    .news-item-container figure figcaption {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: .4rem;
+        width: 2rem;
+    }
+
+    .discover-bar-links>a,
+    .you-bar-links>a {
         color: transparent;
-      }
+    }
 
     h2 {
         display: none;
@@ -467,8 +488,17 @@ nav {
         display: none;
     }
 
+    .news-item-container {
+        width: 3rem;
+    }
+
+    .news-item-container img {
+        width: 40px;
+        height: 40px;
+
+    }
+
+
 
 
 }
-
-
