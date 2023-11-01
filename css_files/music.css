@@ -1,113 +1,105 @@
 .music-main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-    position: relative;
-    top: 2.5rem;
-    left: 18rem;
-    height: 100vh;
-    width: 82%;
+  position: relative;
+  top: 2.5rem;
+  left: 18rem;
+  height: 100vh;
+  width: 82%;
 }
 
-
 .music-search-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-self: end;
-    align-items: center;
-    justify-content: center;
-    top: 4rem;
-    width: 80rem;
-
-
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  align-items: center;
+  justify-content: center;
+  top: 4rem;
+  width: 80rem;
 }
 
 .music-search-container p {
-    font-size: 2.125rem;
+  font-size: 2.125rem;
 }
 
 .music-search-box {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    background: rgb(159, 159, 159);
-    border-radius: 2rem;
-    padding: 0.6rem 1rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: rgb(159, 159, 159);
+  border-radius: 2rem;
+  padding: 0.6rem 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .music-search-box input[type="search"] {
-    background: transparent;
-    width: 20vw;
-    color: black;
-
+  background: transparent;
+  width: 20vw;
+  color: black;
 }
 
 .music-specifics-container {
-    position: relative;
-    top: 6rem;
-    left: 4rem;
-    height: 100vh;
-    width: 85%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem;
-    overflow-y: auto;
+  position: relative;
+  top: 6rem;
+  left: 4rem;
+  height: 100vh;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  overflow-y: auto;
 }
 
-
 .music-search-box p {
-    display: none;
+  display: none;
 }
 
 .card-title {
-    font-size: 110%;
+  font-size: 110%;
 }
 
 .music-search-box label {
-    display: none;
+  display: none;
 }
 
 /* Media query for small screens */
 /* Large screen is default */
 
 @media (max-width: 514px) {
-    .music-main-content {
-        display: flex;
-        justify-content: center;
+  .music-main-content {
+    display: flex;
+    justify-content: center;
 
-        top: 6rem;
-        left: 6rem;
-        height: 100vh;
-        width: 70%;
-    }
+    top: 6rem;
+    left: 6rem;
+    height: 100vh;
+    width: 70%;
+  }
 
-    .music-search-container {
-        width: auto;
-        right: 1rem;
-        
-    }
+  .music-search-container {
+    width: auto;
+    right: 1rem;
+  }
 
-   
-    .music-specifics-container {
-        display: flex;
-        left: 3.5rem;
-        width: 100vw;
+  .music-specifics-container {
+    display: flex;
+    left: 3.5rem;
+    width: 100vw;
+  }
 
-    }
+  .card-title {
+    display: block;
+  }
 
-    .card-title {
-        display: block;
-    }
+  .card {
+    height: 17rem;
+  }
 
-    .card {
-        height: 17rem;
-
-    }
-    .card-img-top, .card-text {
-        width: 16rem;
-    }
-        
+  .card-img-top,
+  .card-text {
+    width: 16rem;
+  }
 }

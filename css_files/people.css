@@ -1,85 +1,67 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    border-radius: 2rem;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 2rem;
 }
 
 .card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-img-top {
-    width: 6rem;
-    aspect-ratio: 1/1;
-    border-radius: 80%;
-    margin-top: 1rem;
-
-
-
+  width: 6rem;
+  aspect-ratio: 1/1;
+  border-radius: 80%;
+  margin-top: 1rem;
 }
 
 .people-specifics-container {
-    position: relative;
-    top: 6rem;
-    left: 4rem;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem;
-    overflow-y: auto;
+  position: relative;
+  top: 6rem;
+  left: 4rem;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  overflow-y: auto;
 }
 
 .card-title,
 .connect-button {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: .4rem;
-}
-
-.card-title {
-    size: 2rem;
-
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0.4rem;
 }
 
 .connect-button {
-    margin-top: 1.5rem;
-    padding-top: 1.5rem;
-    align-self: center;
-    width: 7rem;
-    height: 4rem;
-    text-align: center;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  align-self: center;
+  width: 7rem;
+  height: 4rem;
+  text-align: center;
 
-    border-radius: 2rem;
-
+  border-radius: 2rem;
 }
 
 /* Media query for small screens */
 /* Large screen is default */
 
 @media (max-width: 514px) {
-    .music-search-container p {
-        display: flex;
-        justify-content: center;
-        
+  .music-search-container p {
+    display: flex;
+    justify-content: center;
+  }
 
-    }
-
-    .music-search-container {
-        width: 30rem;
-        align-self: center;
-        padding-left: 3rem;
-    }
-
-    
-
-
+  .music-search-container {
+    width: 30rem;
+    align-self: center;
+    padding-left: 3rem;
+  }
 }
-
-
